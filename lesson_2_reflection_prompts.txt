@@ -4,17 +4,35 @@ to do it to be able to start using the version control.
 
 * How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+The staging area is the place where you prepare changed files to be  committed.
 
 * How can you use the staging area to make sure you have one commit per logical
 change?
+You can add the files with the changes you want from your project folder to the staging area
+and then chose which change to commit first.
 
 * What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Branches are helpful when you want to try something new but you don't want to
+save the changes to the project, so that you create a branch that has the same
+code as master branch and you add the feature you want without modifying the master
+branch.
 
 * How do the diagrams help you visualize the branch structure?
+Diagrams let you see branches structure and the entire list of commits you did on
+every branch.
 
 * What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+You create a branch with the same code lines as master branch because you want to try some
+new things on it , things that you don't know will work and you don't want to add those things
+directly to the master branch. When you merge the master branch with the branch you made some changes
+the changes from the other branch are now added to the master branch .
 
 * What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+A pro of Git's automatic merging vs. always doing merges manually is that
+you don't need to copy all the code from a branch file to a master file and
+then commit. A con of this thing is that if you and another person modify the
+same code line, it will be a conflict and the merge won't go on until the confilct
+is solved. 
